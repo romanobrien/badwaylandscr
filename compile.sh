@@ -12,4 +12,4 @@ echo FRAMERATE: $framerate
 
 ffmpeg -framerate $framerate -i frames/frame%d.png output.mp4
 
-rm -rf frames/frame*
+rm -rf frames

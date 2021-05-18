@@ -29,7 +29,7 @@ endS=$(echo $end | cut -c7-8)
 endM=$(echo $end | cut -c4-5)
 # echo endM $endM
 
-elapse=$(($endM*60 - $startM*60 + $endS - $startS))
+elapse=$((10#$endM*60 - 10#$startM*60 + 10#$endS - 10#$startS))
 # echo elapse $elapse
 # echo elapse > elapse
 
