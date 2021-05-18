@@ -1,5 +1,8 @@
 # Very Bad Wayland Screen Recorder
+I've written this using grum and bash, because I wasn't able to get any of the Gnome supported Wayland screen capture software working on Debian/Sway. 
 
+## Limitations
+This is literally just taking a lot of screenshots using `grum`, it has a low framerate. There is also no audio.
 
 ## Runing screen recorder
 Dependencies:
@@ -8,7 +11,7 @@ Dependencies:
 
 `git clone https://github.com/romanobrien/badwaylandscr`
 
-`chmod +x *`
+`cd badwaylandscr`
 
 `./screenrecord.sh`
 
